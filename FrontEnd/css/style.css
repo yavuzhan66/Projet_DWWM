@@ -5,6 +5,20 @@
   font-family: century;
 }
 
+
+.align-horiz {
+  display: flex;
+}
+
+.align-vert {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-wrap{ 
+  display: flex;
+}
+
 video{
   max-width: fit-content;
   
