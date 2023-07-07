@@ -43,6 +43,12 @@ padding: 10px 40px 10px 40px;
 }
 
 
+.navbar {
+  background: pink;
+position: fixed;
+
+transition: 0.4s;
+}
 
 
 
@@ -73,11 +79,12 @@ padding: 10px 40px 10px 40px;
 #training {
   display: block;
   flex-direction: row;
+  margin-top: 90px;
+
 }
 
 #training h1{
   display: block;
-  margin-top: 90px;
   margin-left: 100px;
 }
 
@@ -90,14 +97,51 @@ position: relative;
 left: 100px;
 }
 
+.website h2{
+font-weight: 700;
+font-size: 24px;
+}
+ .website p{
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.27px;
+ }
+
+ .website button{
+  background-color:#FFF ;
+  color: rgb(0, 149, 255);
+  border: 1px solid rgb(0, 149, 255);
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+ }
 .advertising{
   display: block;
   flex-wrap: wrap;
 position: relative;
-left: 450px;
+left: 432px;
 margin-top: 40px;
 }
 
+.advertising h2{
+font-weight: 700;
+font-size: 24px;
+}
+
+.advertising p{
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.27px;
+}
+
+.advertising button{
+  background-color:#FFF ;
+  color: rgb(0, 149, 255);
+  border: 1px solid rgb(0, 149, 255);
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+ }
 .seo{
   display: block;
   flex-wrap: wrap;
@@ -105,6 +149,26 @@ margin-top: 40px;
 margin-left: 100px;
 margin-top: 50px;
 }
+
+.seo h2{
+font-weight: 700;
+font-size: 24px;
+}
+
+.seo p{
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.27px;
+}
+
+ .seo button{
+  background-color:#FFF ;
+  color: rgb(0, 149, 255);
+  border: 1px solid rgb(0, 149, 255);
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+ }
 
 .design{
   display: block;
@@ -115,5 +179,42 @@ left: 270px;
 margin-top: 50px;
 }
 
+.design h2{
+font-weight: 700;
+font-size: 24px;
+}
 
+.design p{
 
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.27px;
+
+}
+
+.design button{
+  background-color:#FFF ;
+  color: rgb(0, 149, 255);
+  border: 1px solid rgb(0, 149, 255);
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+ }
+
+#team-work{
+  margin-top: 150px;
+}
+
+#team-work article{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#team-work img{
+  width: 750px;
+  height: 380px;
+}
+
+.title{
+  
+}
