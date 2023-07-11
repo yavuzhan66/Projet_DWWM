@@ -201,20 +201,87 @@ letter-spacing: -0.27px;
   padding: 10px 15px 10px 15px;
  }
 
-#team-work{
+#former-container{
   margin-top: 150px;
 }
 
-#team-work article{
-  display: flex;
-  justify-content: flex-end;
-}
 
-#team-work img{
+
+#former-container img{
   width: 750px;
   height: 380px;
+  margin-left: 120px;
 }
 
-.title{
+.text-former{
+  position: relative;
+  left: 150px;
+top: 80px;
+}
+
+#price-container{
+  margin-top: 100px;
+  background-color: rgb(245, 237, 237);
+  width: auto;
+}
+
+#price-container img{
+  width: 750px;
+  height: 380px;
+  margin-left: 900px;
   
 }
+
+#price-container article{
+  position: relative;
+ top: -50px;
+}
+
+.text-price{
+position: relative;
+left: 150px;
+top: 210px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#web-former{
+  margin-top: 150px;
+}
+#web-former h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+font-size: 40px;
+display: flex;
+justify-content: center;
+}
+
+#web-former h3{
+  text-align:center ;
+margin-top: 60px;
+}
+
+#web-former .card{
+  margin-top: 60px;
+}
+
+ .all-card{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 40px  ;
+}
+
+.all-card .card1{
+position: relative;
+top: -50px;}
