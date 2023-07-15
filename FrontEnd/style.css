@@ -44,12 +44,12 @@ h1 {
 
 
 .navbar {
-  background: pink;
-  position: fixed;
-
+  background: #F5F5F5;
+  position: sticky;
   transition: 0.4s;
+  top:0 ;
+  width: 100%;
 }
-
 
 
 
@@ -75,12 +75,24 @@ h1 {
   text-decoration: none;
 }
 
+.video{
+margin-top: -53px;
+
+}
+
+
 #training {
   display: block;
   flex-direction: row;
   margin-top: 90px;
 
 }
+
+#training button:hover{
+  background-color:#18A0FB ;
+  color: #fff;
+}
+
 
 #training h1 {
   display: block;

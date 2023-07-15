@@ -1,12 +1,10 @@
-const navbar = document.querySelector("navbar");
+/*const navbar = document.querySelector("navbar");
 
-window.addEventListener("scroll" , () => {
+window.addEventListener("scroll" , (e) => {
    // console.log("scroll test !!");
    console.log(window.scrollY);
-if (window.scrollY > 120) {
-    navbar.style.top = 0;
+if (window.scrollY > 80) {
     navbar.style.position = 'fixed';
-    navbar.style.width = "100px";
 
 } 
 
@@ -14,3 +12,4 @@ if (window.scrollY > 120) {
 
 });
 
+*/
