@@ -45,10 +45,9 @@ h1 {
 
 .navbar {
   background: #F5F5F5;
-  position: sticky;
+  position: fixed;
   transition: 0.4s;
   top:0 ;
-  width: 100%;
 }
 
 
@@ -76,7 +75,7 @@ h1 {
 }
 
 .video{
-margin-top: -53px;
+margin-top: -49px;
 
 }
 
@@ -355,14 +354,14 @@ margin-top: -53px;
 }
 
 #propos img {
-  width: 8rem;
+  width: 3rem;
   display: flex;
-  justify-content: center;
   margin-bottom: 50px;
+  align-items: center;
 }
 
 .home-sci {
-  margin-top: 70px;
+  margin-top: 20px;
   font-size: 50px;
   align-items: center;
   text-decoration: none;
@@ -374,6 +373,28 @@ margin-top: -53px;
 }
 
 .copyright p {
-  position: relative;
-  left: 865px;
+display: flex;
+justify-content: flex-end;
+font-family:'Montserrat', sans-serif ;
+font-style: oblique;
+font-size: 15px;
+color: #000;
+font-weight: 600;
+}
+
+.copyright p:hover {
+  color: #18A0FB;
+}
+
+.copyright a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 370px){
+
+.navbar {
+display: flex;
+justify-content: center;
+}
+
 }
