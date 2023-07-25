@@ -1,4 +1,4 @@
-/*const navbar = document.querySelector("navbar");
+const navbar = document.querySelector("navbar");
 
 window.addEventListener("scroll" , (e) => {
    // console.log("scroll test !!");
@@ -12,4 +12,20 @@ if (window.scrollY > 80) {
 
 });
 
-*/
+
+
+const btUp = document.querySelector('#bt-up');
+btUp.style.display = 'none';
+btUp.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,        
+        behavior: 'smooth'
+      });
+})
+window.addEventListener('scroll', () => {    
+    if(window.scrollY > 50) {
+        btUp.style.display = 'flex';
+    } else {
+        btUp.style.display = 'none';
+    }
+})

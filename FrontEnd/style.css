@@ -20,6 +20,22 @@ body {
   background: #fff;
 }
 
+#bt-up {
+  width: 150px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
+  position:fixed;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+}
+
 hr{
   height: 1px;
   background-color: #000;
@@ -542,14 +558,17 @@ margin-bottom: auto;
 .home-sci {
   margin-top: 20px;
   font-size: 50px;
-  align-items: center;
-  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .home-sci a {
-  position: relative;
-  left: 850px;
+  
+  text-decoration: none;
+  
 }
+
+
 
 .copyright p {
 display: flex;
@@ -568,6 +587,10 @@ font-weight: 600;
 .copyright a{
   text-decoration: none;
 }
+
+
+
+
 
 @media screen and (max-width: 370px){
 
