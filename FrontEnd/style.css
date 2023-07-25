@@ -20,6 +20,11 @@ body {
   background: #fff;
 }
 
+hr{
+  height: 1px;
+  background-color: #000;
+}
+
 h1 {
   font-family: 'Dosis', sans-serif;
 }
@@ -32,6 +37,11 @@ h1 {
 .align-vert {
   display: flex;
   flex-direction: column;
+}
+
+.align-wrap{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar button {
@@ -84,10 +94,8 @@ h1 {
   text-decoration: none;
 }
 
-.video{
-margin-top: -49px;
-width: 100%;
-}
+
+/*///////////////////////////////////////////////////*/
 
 
 #training {
@@ -112,7 +120,7 @@ width: 100%;
   display: block;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-top: 40px;
+  margin-top: 90px;
   position: relative;
   left: 100px;
 }
@@ -141,8 +149,8 @@ width: 100%;
   display: block;
   flex-wrap: wrap;
   position: relative;
-  left: 432px;
-  margin-top: 40px;
+  left: 290px;
+  margin-top: 90px;
 }
 
 .advertising h2 {
@@ -170,7 +178,7 @@ width: 100%;
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-left: 100px;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .seo h2 {
@@ -198,8 +206,8 @@ width: 100%;
   flex-wrap: wrap;
   justify-content: flex-end;
   position: relative;
-  left: 270px;
-  margin-top: 50px;
+  left: 120px;
+  margin-top: 90px;
 }
 
 .design h2 {
@@ -224,47 +232,157 @@ width: 100%;
   padding: 10px 15px 10px 15px;
 }
 
-#former-container {
+/*/////////////////////DEV WEB//////////////////////////////*/
+
+#web-container {
   margin-top: 150px;
 }
 
 
 
-#former-container img {
-  width: 750px;
-  height: 380px;
-  margin-left: 120px;
+#web-container img {
+  width: 500px;
+  height: 250px;
+  margin-left: 100px;
 }
 
-.text-former {
+.text-web {
   position: relative;
   left: 150px;
   top: 80px;
+  
 }
 
-#price-container {
-  margin-top: 100px;
-  background: #F5F5F5;
-  width: auto;
-}
-
-#price-container img {
-  width: 750px;
-  height: 380px;
-  margin-left: 900px;
-
-}
-
-#price-container article {
+.text-web h2{
+  display: flex;
+  justify-content: center;
   position: relative;
   top: -50px;
 }
+.text-web p{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+}
 
-.text-price {
+
+/*/////////////////////ADVERTISING///////////////////////*/
+
+#advertising-container {
+  margin-top: 100px;
+  
+  }
+
+#advertising-container img {
+  width: 500px;
+  height: 250px;
+  margin-left: 100px;
+}
+
+
+.text-advertising {
   position: relative;
   left: 150px;
-  top: 210px;
+  top: 80px;
+  
+}
 
+.text-advertising h2{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+
+  }
+
+.text-advertising p {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+}
+
+
+/*/////////////////////SEO//////////////////////////////*/
+#seo-container {
+  margin-top: 100px;
+  
+  }
+
+#seo-container img {
+  width: 500px;
+  height: 250px;
+  margin-left: 100px;
+}
+
+
+.text-seo {
+  position: relative;
+  left: 150px;
+  top: 80px;
+  
+}
+
+.text-seo h2{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+
+  }
+
+.text-seo p {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+}
+
+
+
+
+/*////////////////////////DESIGN///////////////////////////*/
+#design-container {
+  margin-top: 100px;
+  
+  }
+
+#design-container img {
+  width: 500px;
+  height: 250px;
+  margin-left: 100px;
+}
+
+
+.text-design {
+  position: relative;
+  left: 150px;
+  top: 80px;
+  
+}
+
+.text-design h2{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+
+  }
+
+.text-design p {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
 }
 
 
@@ -302,6 +420,7 @@ width: 100%;
   justify-content: space-around;
   margin: 70px;
   font-size: 20px;
+  
 }
 
 .primary-block article{
@@ -326,7 +445,7 @@ margin-bottom: auto;
 .primary-block figcaption {
   display: flex;
   justify-content: center;
-  
+  text-decoration: dotted;
 }
 
 
