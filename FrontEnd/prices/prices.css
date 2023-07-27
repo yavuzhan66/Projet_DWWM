@@ -111,5 +111,110 @@
   /*//////////////structure//////////////*/
 
   
+#container {
+  margin-top: 50px;
+  margin-left: 70px;
+}
 
+.title h1{
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.title h2{
+  margin-top: 50px;
+  font-size: 45px;
   
+}
+
+.title h3{
+  margin-top: 60px;
+  font-size: 25px;
+}
+
+.monthly{
+  margin-top: 100px;
+  background:turquoise ;
+  border: 1px solid ;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+}
+
+.yearly {
+  margin-top: 100px;
+  background:turquoise ;
+  border: 1px solid ;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////footer///////////////////////////*/
