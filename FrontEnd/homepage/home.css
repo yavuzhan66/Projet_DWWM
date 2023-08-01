@@ -24,11 +24,11 @@ body {
 
 
 #bt-up {
-  width: 150px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: var(--primary-color);
-  color: var(--secondery-color);
+  background-color: black;
+  color: white;
   position:fixed;
   bottom: 50px;
   right: 50px;

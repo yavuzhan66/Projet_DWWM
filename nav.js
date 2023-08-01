@@ -12,3 +12,5 @@ function barClicked() {
   bars.classList.toggle('active');
   nav.classList.toggle('visible');
 }
+
+
