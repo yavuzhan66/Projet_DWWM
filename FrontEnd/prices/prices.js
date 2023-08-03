@@ -30,36 +30,23 @@ window.addEventListener('scroll', () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 const slides = [
     {
-        "image":"uiux.jpg",
-        "tagLine":"Formation de <span>Dev Web</span"
+        "img":"uiux.jpg",
+        "tagLine":"Formation de <span>Dev Web</span>"
     },
     {
-        "image":"seo.jpg",
+        "img":"seo.jpg",
         "tagLine":"Formation de seo"
-    },
+    }
 ];
 
-const numberOfImages = slides.length;
+const numberOfImg = slides.length;
 const arrowLeft = document.querySlelector("#banner .arrow_left");
 const arrowRight = document.querySelector("#banner .arrow_right");
 const bannerElement = document.querySelector("#banner");
 
-arrowLeft.addEventListener('click', () => {
+arrowLeft.addEventListener('click', (e) => {
     imageNumber--;
     if(imageNumber < 0) {
         imageNumber = numberOfImages - 1;
@@ -67,3 +54,10 @@ arrowLeft.addEventListener('click', () => {
     displayBanner(imageNumber);
 });
 
+arrowRight.addEventListener('click', (e) => {	
+	imageNumber++;
+	if(imageNumber >= numberOfImages) {
+		imageNumber = 0;		
+	} 
+	displayBanner(imageNumber);	
+});
