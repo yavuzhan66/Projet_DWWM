@@ -12,7 +12,6 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   width: 100%;
-  background: #fff;
 }
 
 
@@ -39,7 +38,7 @@ hr{
   background-color: #000;
 }
 
-h1 {
+  h1 {
   font-family: 'Dosis', sans-serif;
 }
 
@@ -72,6 +71,7 @@ h1 {
   position: fixed;
   transition: 0.4s;
   top:0 ;
+  width: 100%;
 }
 
 

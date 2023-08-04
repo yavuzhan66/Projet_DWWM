@@ -12,9 +12,8 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   width: 100%;
-  background: #fff;
+  background:black;
 }
-
 
 
 
@@ -41,6 +40,7 @@ hr{
 
 h1 {
   font-family: 'Dosis', sans-serif;
+  color: #F5F5F5;
 }
 
 .align-horiz {
@@ -72,6 +72,8 @@ h1 {
   position: fixed;
   transition: 0.4s;
   top:0 ;
+  width: 100%;
+
 }
 
 

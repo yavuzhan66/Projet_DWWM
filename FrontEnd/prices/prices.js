@@ -23,13 +23,6 @@ window.addEventListener('scroll', () => {
 
 
 
-
-
-
-
-
-
-
 const slides = [
     {
         "img":"uiux.jpg",
@@ -46,7 +39,7 @@ const arrowLeft = document.querySlelector("#banner .arrow_left");
 const arrowRight = document.querySelector("#banner .arrow_right");
 const bannerElement = document.querySelector("#banner");
 
-arrowLeft.addEventListener('click', (e) => {
+arrowLeft.addEventListener('click', () => {
     imageNumber--;
     if(imageNumber < 0) {
         imageNumber = numberOfImages - 1;
@@ -54,7 +47,7 @@ arrowLeft.addEventListener('click', (e) => {
     displayBanner(imageNumber);
 });
 
-arrowRight.addEventListener('click', (e) => {	
+arrowRight.addEventListener('click', () => {	
 	imageNumber++;
 	if(imageNumber >= numberOfImages) {
 		imageNumber = 0;		
