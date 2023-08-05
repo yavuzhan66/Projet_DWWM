@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -12,6 +13,7 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   width: 100%;
+  background: #fff;
 }
 
 
@@ -21,7 +23,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color:black;
+  background-color: black;
   color: white;
   position:fixed;
   bottom: 50px;
@@ -38,9 +40,7 @@ hr{
   background-color: #000;
 }
 
-  h1 {
-  font-family: 'Dosis', sans-serif;
-}
+
 
 .align-horiz {
   display: flex;
@@ -71,7 +71,6 @@ hr{
   position: fixed;
   transition: 0.4s;
   top:0 ;
-  width: 100%;
 }
 
 
@@ -106,4 +105,11 @@ hr{
 
 .button a {
   text-decoration: none;
+}
+
+ #header h1{
+  
+  color: black;
+    font-family: 'Dosis', sans-serif;
+  
 }
