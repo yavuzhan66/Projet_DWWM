@@ -13,7 +13,7 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   width: 100%;
-  background: #fff;
+  background-color: #000;
 }
 
 
@@ -68,9 +68,10 @@ hr{
 
 .navbar {
   background: #F5F5F5;
-  position: fixed;
+  position: relative;
   transition: 0.4s;
   top:0 ;
+  width: 100%;
 }
 
 
@@ -107,9 +108,38 @@ hr{
   text-decoration: none;
 }
 
- #header h1{
-  
-  color: black;
+ .container-top h1{
+  font-size: 60px;
+  color: rgb(255, 255, 255);
     font-family: 'Dosis', sans-serif;
-  
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+transition: 0.6s ease;
+}
+
+.container-top p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+
+.container-top h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+
+.btn {
+  color: black;
+  background-color: #fff;
+position:center;
+}
+
+.btn:hover {
+  background-color:#4CAF50 ;
 }
