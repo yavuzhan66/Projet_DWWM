@@ -58,14 +58,6 @@ h1 {
   flex-wrap: wrap;
 }
 
-.navbar button {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 30px;
-  padding: 10px 40px 10px 40px;
-
-}
-
 
 .navbar {
   background: #F5F5F5;
@@ -104,6 +96,14 @@ h1 {
   box-shadow: 10px 0px 10px 10px;
   opacity: 0.6;
   padding: 5px 10px 5px 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  margin-left: 30px;
+  padding: 10px 40px 10px 40px;
+margin-right: 50px;
 }
 
 .button a {
