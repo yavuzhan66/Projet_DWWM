@@ -7,7 +7,7 @@ app.use(express.json());
 // config ejs
 app.set('view engine', 'ejs');
 
-app.use('/index', require('./models/models'));
+//app.use('/index', require('./models/models'));
 sequelize.sync()
 .then(() => {
     console.log('Nickel');
