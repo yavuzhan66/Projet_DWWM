@@ -8,7 +8,7 @@ app.use(express.json());
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-app.use('/home', require('./models/models'));
+app.use('/index', require('./models/models'));
 sequelize.sync()
 .then(() => {
     console.log('Nickel');
@@ -25,17 +25,3 @@ const connect = mysql.createConnection({
     password: "",
     database: "projet_dwwm",
 });
-
-app.use(express.static("public"));
-
-app.set('view engine', "ejs");
-app.set('views', "./views");
-app.listen(8080, ()=>{
-    console.log("le serveur tourne sur la page http://127.0.0.1:8080")
-});
-
-app.use(express.json());
-
-module.exports = {
-
-}
