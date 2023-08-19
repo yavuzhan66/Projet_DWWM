@@ -6,7 +6,6 @@ app.use(express.json());
 
 // config ejs
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
 
 app.use('/index', require('./models/models'));
 sequelize.sync()
@@ -17,11 +16,7 @@ sequelize.sync()
     console.log(erreur);
 });
 
-// BDD 
-const mysql = require('mysql');
-const connect = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "projet_dwwm",
+const port = 8080;
+app.listen(port, () => {
+    console.log('bon')
 });
