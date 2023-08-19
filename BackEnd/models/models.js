@@ -1,7 +1,9 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
+const Sequelize = require ('sequelize'); 
 
-const Login = sequelize.define('Login', {
+const sequelize = new Sequelize(
+    
     id: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -32,7 +34,7 @@ const Login = sequelize.define('Login', {
         type: DataTypes.STRING,
         allowNull: false,
     },
-});
+);
 
 
 const Register = sequelize.define('Register', {
