@@ -15,6 +15,7 @@ sequelize.sync()
 .catch((err) => {
     console.log(erreur);
 });
+//
 
 const port = 8080;
 app.listen(port, () => {
