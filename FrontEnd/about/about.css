@@ -149,3 +149,20 @@ left: 45%;
 .btn:hover {
   background-color:#4CAF50 ;
 }
+
+
+
+#bloc{
+  display: flex;
+justify-content: center;
+}
+
+
+
+
+
+article {
+
+text-align: center;
+  border: 1px solid white;
+}
