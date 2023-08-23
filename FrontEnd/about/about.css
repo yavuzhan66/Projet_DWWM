@@ -187,25 +187,46 @@ text-align: center;
 .web i{
   font-size: 50px;
 color: red;
+position: relative;
+left: -40px;
+top: 30px;
 }
 
 .advertising i{
   font-size: 50px;
 color: green;
+position: relative;
+left: -40px;
+top: 30px;
 }
 
 .seo i{
   font-size: 50px;
 color: blue;
+position: relative;
+left: -40px;
+top: 30px;
 }
 
 .uiux i{
   font-size: 50px;
 color: violet;
+position: relative;
+left: -40px;
+top: 30px;
 }
+
 
 figure h3 {
   display: flex;
   justify-content: start;
 align-items: baseline;
+margin-top: 50px;
+margin-left: 15px;
 }
+
+figure p{
+  margin-top: 30px;
+  margin-left: -180px;
+}
+
