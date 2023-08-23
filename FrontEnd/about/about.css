@@ -150,19 +150,62 @@ left: 45%;
   background-color:#4CAF50 ;
 }
 
-
+/*///////////////SECTION BLOC//////////////////////*/
 
 #bloc{
   display: flex;
 justify-content: center;
+
 }
 
 
-
-
-
 article {
-
+  width: 250px;
+  height: 250px;
+  
+  background-color: wheat;
+margin:60px;
 text-align: center;
-  border: 1px solid white;
+}
+
+.web article{
+  border-bottom: 10px solid red;
+}
+
+.advertising article{
+  border-bottom: 10px solid green;
+}
+
+.seo article{
+  border-bottom: 10px solid blue;
+}
+
+.uiux article{
+  border-bottom: 10px solid violet;
+}
+
+.web i{
+  font-size: 50px;
+color: red;
+}
+
+.advertising i{
+  font-size: 50px;
+color: green;
+}
+
+.seo i{
+  font-size: 50px;
+color: blue;
+}
+
+.uiux i{
+  font-size: 50px;
+color: violet;
+}
+
+figure h3 {
+  display: flex;
+  justify-content: start;
+align-items: baseline;
 }
