@@ -12,7 +12,7 @@
   body {
     font-family: "Raleway", sans-serif;
     width: 100%;
-    background: #fff;
+    background-color: black;
   }
   
   
@@ -34,10 +34,7 @@
     cursor: pointer;
   }
   
-  hr{
-    height: 1px;
-    background-color: #000;
-  }
+  
   
   h1 {
     font-family: 'Dosis', sans-serif;
@@ -114,206 +111,6 @@ main{
   justify-content: space-around;
 }
   
-#container {
-  margin-top: 50px;
-  margin-left: 70px;
-}
-
-.title h1{
-  font-size: 80px;
-  font-weight: 600;
-}
-
-.title h2{
-  margin-top: 50px;
-  font-size: 45px;
-  
-}
-
-.title h3{
-  margin-top: 60px;
-  font-size: 25px;
-}
-
-.monthly{
-  margin-top: 100px;
-  background:turquoise ;
-  border: 1px solid ;
-  border-radius: 10px;
-  padding: 10px 30px 10px 30px;
-  position: relative;
-  left: 30px;
-}
-
-.yearly {
-  margin-top: 100px;
-  background:turquoise ;
-  border: 1px solid ;
-  border-radius: 10px;
-  padding: 10px 30px 10px 30px;
-  position: relative;
-  left: 150px;
-}
-
-/*///////////////////tarifs plan///////////*/
-
-.price-plan{
-  background-color: grey;
-  width: auto;
-  display: flex;
-  justify-content: flex-end;
-  align-content: flex-end;
-  border-radius: 50px;
-  padding: auto;
-margin-top: 50px;
-padding: 20px 40px 20px 40px;
-}
-
-.training{
-  color: white;
-  display: flex;
-  flex-direction: column;
-}
-
-.training h2{
-  display: flex;
-  justify-content: center;
-  margin-top:50px;
-}
-
-.training h3{
-  display: flex;
-  justify-content: center;
-  margin-top:30px;
-}
-
-.training p{
-  display: flex;
-  justify-content: center;
-  margin-top:50px;
-  font-size: 90px;
-}
-
-
-.buy{
-  display: flex;
-  justify-content: center;
-  border: 1px solid ;
-  border-radius: 50px;
-  background-color: yellow;
-}
-
-
-#banner{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-position: relative;
-min-height: 470px;
-
-}
-
-#banner img{
-  position: absolute;
-width: 50px;
-height: 80px;
-z-index: -1;
-object-fit: cover;
-object-position: center;
-}
-
-#banner .arrow {
-  position: fixed;
-  cursor: pointer;
-}
-
-#banner .arrow_left {
-  left: 220px;
-position: relative;
-top: -555px;
-cursor: pointer;
-
-}
-
-#banner .arrow_right {
-  right: -710px;
-  position: relative;
-  top: -630px;
-  cursor: pointer;
-
-}
-
-/*///////////*/
-
-#banner p {
-	font-family: 'Roboto Slab', sans-serif;
-	font-weight: 900;
-	font-size: 50px;
-	line-height: 66px;
-	color: white;
-	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-	text-align: center;
-	position: relative;
-}
-
-
-#banner span {
-	display: block;
-	font-weight: 400;
-	font-size: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
