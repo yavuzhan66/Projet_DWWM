@@ -63,7 +63,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-.navbar button {
+.button {
   display: flex;
   justify-content: flex-end;
   margin-left: 30px;
