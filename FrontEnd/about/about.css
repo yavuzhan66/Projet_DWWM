@@ -105,6 +105,7 @@ margin: 15px;
   font-size: 20px;
   position: relative;
   left:-60px;
+  top: -65px;
 }
 
 /*//////////////LOGIN BUTTON ANIMATION /////////*/
@@ -209,7 +210,7 @@ display: inline-block;
 /*/////////////////////////////////////////////*/
 
 #bloc{
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
  .container-top h1{
@@ -246,19 +247,6 @@ font-size: 20px;
   text-align: center;
 }
 
-.contact {
-  color: black;
-  background-color: #fff;
-position: relative;
-margin-top: 50px;
-padding: 20px 10px 20px 10px;
-border-radius: 50px;
-}
-
-.contact:hover {
-  background-color:#4CAF50 ;
-}
-
 /*///////////////SECTION BLOC//////////////////////*/
 
 #bloc2{
@@ -267,12 +255,15 @@ justify-content: center;
 margin-top: 50px;
 }
 
+#bloc2 a, h3{
+  text-decoration: none;
+}
 
 article {
   width: 250px;
   height: 250px;
   border-radius: 15%;
-  background-color: wheat;
+  background-color: rgb(250, 239, 217);
 margin:60px;
 text-align: center;
 }
@@ -343,37 +334,30 @@ figure p{
 /*//////////////////FOOTER//////////////////*/
 
 
-#end {
-  margin-top: 250px;
+#propos {
+  margin-top: 100px;
   text-decoration: none;
-  width: 100%;
-  height: 100%;
-  background-color: white;
+
 }
 
-#end ul {
+#propos ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-
 }
 
-#end li a {
+
+
+#propos li a {
+  font-size: 30px;
   text-decoration: none;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  color: black;
+  font-family: 'Dosis', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
-#end img {
-  width: 3rem;
-  display: flex;
-  margin-bottom: 50px;
-  align-items: center;
-}
 
 .home-sci {
-  margin-top: 20px;
+  margin-top: 90px;
   font-size: 50px;
   display: flex;
   justify-content: space-around;
@@ -393,7 +377,7 @@ justify-content: flex-end;
 font-family:'Montserrat', sans-serif ;
 font-style: oblique;
 font-size: 15px;
-color: #000;
+color: #ffffff;
 font-weight: 600;
 }
 
