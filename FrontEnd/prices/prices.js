@@ -14,6 +14,7 @@ if (window.scrollY > 80) {
 
 
 
+
 const btUp = document.querySelector('#bt-up');
 btUp.style.display = 'none';
 btUp.addEventListener('click', () => {
@@ -29,4 +30,3 @@ window.addEventListener('scroll', () => {
         btUp.style.display = 'none';
     }
 })
-
