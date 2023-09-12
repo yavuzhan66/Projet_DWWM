@@ -13,16 +13,6 @@ window.addEventListener("scroll", () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
 const btUp = document.querySelector('#bt-up');
 btUp.style.display = 'none';
 btUp.addEventListener('click', () => {
