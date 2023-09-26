@@ -290,6 +290,73 @@ textarea{
 }
 
 
+
+
+
+
+
+#propos {
+  margin-top: 100px;
+  text-decoration: none;
+
+}
+
+#propos ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+
+}
+
+#propos li a {
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+#propos img {
+  width: 3rem;
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.home-sci {
+  margin-top: 20px;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-sci a {
+  
+  text-decoration: none;
+  
+}
+
+
+
+.copyright p {
+display: flex;
+justify-content: flex-end;
+font-family:'Montserrat', sans-serif ;
+font-style: oblique;
+font-size: 15px;
+color: #000;
+font-weight: 600;
+}
+
+.copyright p:hover {
+  color: #18A0FB;
+}
+
+.copyright a{
+  text-decoration: none;
+}
+
+
+
 @media screen and (max-width:800px) {
   
   h1 {
