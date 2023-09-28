@@ -1,5 +1,5 @@
 const express = require("express");
-const { log } = require("handlebars");
+const { setPosts } = require("../controllers/post.controller");
 const router = express.Router();
 
 router.get("/", (req, res) => {
@@ -7,10 +7,7 @@ router.get("/", (req, res) => {
 });
 
 
-router.post("/", (req, res) => {
-    console.log(req.body);
-    res.json({ message: "req.body.message" });
-});
+router.post("/", setPosts);
 
 router.put('/:id', (req, res) => {
     res.json({ messageId: req.params.id });

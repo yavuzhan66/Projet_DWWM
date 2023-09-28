@@ -1,13 +1,14 @@
-const navbar = document.querySelector("navbar");
+
+
+const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 80) {
-        navbar.classList.remove = ("navbar");
+    if (window.scrollY < 80 || document.documentElement.scrollTop > 50) {
+        navbar.classList.add("fixed-navbar");
+    } else {
+        navbar.classList.remove("fixed-navbar");
     }
 });
-
-
-
 
 
 
