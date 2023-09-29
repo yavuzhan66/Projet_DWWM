@@ -81,26 +81,11 @@ header .navbar li a {
   font-family: 'Dosis', sans-serif;
 font-size: 26px;
 margin: 15px;
-  --h: 1.2em;   /* the height */
-  line-height: var(--h);
-  color: #0000;
-  overflow: hidden;
-  text-shadow: 
-    0 var(--_t,var(--h)) #000000,
-    0 0 var(--_c,#ffffff);
-  background: 
-    linear-gradient(#1095c1 0 0) 
-    bottom/100% var(--_d, 0) no-repeat;
-  transition: 0.3s;
+color: #fff;
+text-decoration:none ;
 }
 
 
-header .navbar li a:hover{
- 
-   --_d: 100%;
-  --_t: 0;
-  --_c: #000000;
-}
 
 
 header .button {
