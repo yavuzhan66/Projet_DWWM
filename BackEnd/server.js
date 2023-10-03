@@ -1,7 +1,7 @@
 const express = require("express");
 const connectDB = require("./config/db");
-const dotenv = require("dotenv").config();
-const port = 3000
+const dotenv = require('dotenv').config();
+const port = 3000;
 
 //connexion à la DB
 connectDB();

@@ -208,9 +208,9 @@ display: inline-block;
 
 .box-container{
   display: flex;
-  justify-content: center;
+align-items: center;
   flex-wrap: wrap;
-  background:#dddddd;
+  background:#aaaaaa;
 }
 
   .section-title h2 {
